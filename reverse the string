@@ -1,5 +1,7 @@
 def reverse(s): 
   str = "" 
+  j=-1
   for i in s: 
-    str = i + str
+    str[j] = i
+    j-=1
   return str
